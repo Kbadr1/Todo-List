@@ -1,0 +1,20 @@
+
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.list_item_title {
+  margin-left: 5px;
+}
+.list_item_delete, .list_item_edit {
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background-color: transparent;
+}
+.list_item_delete:focus, .list_item_edit:focus {
+  outline: none;
+  box-shadow: none;
+}

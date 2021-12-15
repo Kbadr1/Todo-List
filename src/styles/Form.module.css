@@ -1,0 +1,32 @@
+.form {
+  margin-bottom: 40px;
+}
+.form_input {
+  width: 100%;
+  border: 0;
+  margin-bottom: 20px;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-weight: 400;
+}
+.form_input:focus, .form_button:focus {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.form_input::placeholder {
+  font-weight: 300;
+}
+.form_buttons {
+  display: flex;
+  justify-content: center;
+}
+.form_button {
+  background-color: white;
+  color:  #450d85;
+  border: 0;
+  margin: 0 10px;
+  border-radius: 40px;
+  font-weight: 500;
+  padding: 4px 16px;
+}

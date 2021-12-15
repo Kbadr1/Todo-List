@@ -1,0 +1,10 @@
+.TodoApp{
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 40px;
+  height: 100vh;
+}
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
